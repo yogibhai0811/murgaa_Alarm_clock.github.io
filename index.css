@@ -1,0 +1,89 @@
+/* common style for body of the page */
+
+body {
+  border: 2px solid red;
+  margin: 100px;
+  min-height: 30vw;
+  background-color: whitesmoke;
+  border-radius: 50px;
+}
+
+/* Style for the clock that displays the currnet time */
+
+#clock {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+
+  width: 30%;
+  margin-left: 38%;
+  margin-bottom: 10px;
+}
+
+#clock:hover {
+  cursor: pointer;
+  background-color: wheat;
+}
+
+/* style to create alarm by filling up form */
+
+#set_alarm:hover {
+  background-color: greenyellow;
+  /* cursor: pointer; */
+}
+#alarm-form {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#alarm-form label {
+  margin-right: 10px;
+}
+
+#alarm-form input {
+  width: 75px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+#alarm-ampm {
+  cursor: pointer;
+  width: auto;
+}
+
+#alarm-form button {
+  margin-left: 10px;
+}
+
+/* styles for the lists of alarm set by the user */
+
+#alarm-list {
+  text-align: center;
+  list-style: none;
+  padding-top: 0;
+  margin: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+#alarm-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#alarm-list button {
+  margin-left: 10px;
+}
+#alarm-list button:hover{
+  background-color: red;
+}
